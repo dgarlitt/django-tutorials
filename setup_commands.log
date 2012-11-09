@@ -1,0 +1,107 @@
+sudo apt-get insall apache2
+sudo apt-get install apache2
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
+sudo apt-get install curl
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
+python
+clear
+curl http://python-distribute.org/distribute_setup.py | python
+sudo curl http://python-distribute.org/distribute_setup.py | python
+curl http://python-distribute.org/distribute_setup.py
+curl http://python-distribute.org/distribute_setup.py > distribute_setup.py
+python distribute_setup.py 
+sudo python distribute_setup.py 
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
+sudo curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py > get_pip.py
+sudo python get_pip.py 
+pip install virtualenv
+sudo pip install virtualenv
+~/
+mkdir ~/projects
+cd ~/projects/
+clear
+mkdir tutorial
+cd tutorial/
+virtualenv envd14
+source envd14/bin/activate
+pip install django
+django-admin.py startproject mysite
+ls
+ls mysite/
+ls mysite/mysite/
+cd mysite/
+python manage.py runserver
+ls
+vim mysite/settings.py
+vim
+sudo apt-get install vim
+vim
+pwd
+vim mysite/settings.py
+python manage.py syncdb
+vim mysite/settings.py
+python manage.py syncdb
+ls
+cd mysite/
+ls
+cd ../
+ls
+python manage.py startapp polls
+ls polls/
+ls
+vim polls/models.py
+vim mysite/settings.py
+python manage.py sql polls
+vim polls/models.py
+python manage.py sql polls
+python manage.py validate
+python manage.py sqlcustom polls
+python manage.py sqlclear polls
+python manage.py sqlindexes polls
+python manage.py sqlall polls
+python manage.py syncdb
+python manage.py shell
+vim polls/models.py
+python manage.py shell
+vim polls/models.py
+python manage.py shell
+ls
+vim mysite/settings.py
+python manage.py syncdb
+vim mysite/urls.py
+ifconfig
+python manage.py runserver
+python manage.py runserver 0.0.0.0:8000
+history
+python manage.py runserver 0.0.0.0:8000
+pwd
+mkdir mytemplates
+mkdir mytemplates/polls
+touch mytemplates/polls/index.html
+history
+whereis django
+which django
+clear
+python -c "
+import sys
+sys.path = sys.path[1:]
+import django
+pring(django.__path__)"
+python -c "
+import sys
+sys.path = sys.path[1:]
+import django
+print(django.__path__)"
+mkdir mytemplates/admin
+cp /home/dan/projects/tutorial/envd14/local/lib/python2.7/site-packages/django/contrib/admin/templates/admin/base_site.html /home/dan/projects/tutorial/mysite/mytemplates/admin/base_site.html
+vim mytemplates/admin/base_site.html
+python manage.py runserver 0.0.0.0:8000
+ifconfig
+history | /home/dan/projects/tutorials/setup_commands.log
+touch /home/dan/projects/tutorial/setup_commands.log
+history | /home/dan/projects/tutorials/setup_commands.log
+history ../setup_commands.log
+history | ../setup_commands.log
+sudo history | ../setup_commands.log
+history -w ../setup_commands.log 
